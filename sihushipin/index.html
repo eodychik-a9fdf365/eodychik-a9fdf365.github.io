@@ -1,0 +1,1462 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>四虎视频-在线影视短剧直播推荐_热门剧集解析与观看指南</title>
+  <meta name="description" content="四虎视频内容专题页：聚合热播剧集、微短剧、直播与综艺推荐，提供深度解析、更新追踪与FAQ，帮您快速找到值得看的四虎视频内容，掌握热门动态与观看顺序。">
+  <meta name="keywords" content="四虎视频,四虎视频推荐,四虎视频解析,四虎视频在线内容,四虎视频热门剧集">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%232b6ef0'/%3E%3Ctext x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='sans-serif'%3E四%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --bg: #f6f8ff;
+      --surface: #ffffff;
+      --surface-soft: #f0f4fe;
+      --ink: #141b2b;
+      --ink-soft: #3b465c;
+      --muted: #6b7a90;
+      --line: #dbe2ef;
+      --brand: #2b6ef0;
+      --brand-deep: #1a4fb8;
+      --brand-soft: #e3ecff;
+      --gold: #f5a623;
+      --green: #1f9d7a;
+      --radius-lg: 24px;
+      --radius-md: 16px;
+      --radius-sm: 10px;
+      --shadow-sm: 0 4px 12px rgba(23, 43, 99, 0.06);
+      --shadow-md: 0 10px 30px rgba(23, 43, 99, 0.10);
+      --shadow-lg: 0 20px 50px rgba(23, 43, 99, 0.14);
+      --maxw: 1200px;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .wrap {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* ---------- 顶部导航 ---------- */
+    .topbar {
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      min-height: 64px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 800;
+      font-size: 22px;
+      letter-spacing: -0.5px;
+      color: var(--brand-deep);
+      flex-shrink: 0;
+    }
+
+    .logo-mark {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--brand), #6e9bff);
+      color: #fff;
+      display: grid;
+      place-items: center;
+      font-size: 16px;
+      font-weight: 800;
+      box-shadow: 0 6px 14px rgba(43, 110, 240, 0.28);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: 15px;
+      color: var(--ink-soft);
+      font-weight: 500;
+    }
+
+    .nav-links a {
+      padding: 6px 0;
+      transition: color 0.2s;
+      white-space: nowrap;
+    }
+
+    .nav-links a:hover {
+      color: var(--brand);
+    }
+
+    .nav-right {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .search-mini {
+      display: flex;
+      align-items: center;
+      background: var(--surface-soft);
+      border-radius: 999px;
+      padding: 6px 14px;
+      border: 1px solid transparent;
+      transition: border 0.2s;
+    }
+
+    .search-mini:focus-within {
+      border-color: var(--brand);
+      background: #fff;
+    }
+
+    .search-mini input {
+      border: none;
+      background: transparent;
+      outline: none;
+      font-size: 14px;
+      width: 150px;
+      color: var(--ink);
+      font-family: inherit;
+    }
+
+    .search-mini button {
+      border: none;
+      background: transparent;
+      cursor: pointer;
+      font-size: 16px;
+      color: var(--muted);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 22px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 14px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: inherit;
+      white-space: nowrap;
+    }
+
+    .btn-primary {
+      background: var(--brand);
+      color: #fff;
+      box-shadow: 0 6px 18px rgba(43, 110, 240, 0.32);
+    }
+
+    .btn-primary:hover {
+      background: var(--brand-deep);
+      transform: translateY(-1px);
+    }
+
+    .btn-ghost {
+      background: var(--brand-soft);
+      color: var(--brand-deep);
+    }
+
+    .btn-ghost:hover {
+      background: #d2e0ff;
+    }
+
+    /* ---------- Banner ---------- */
+    .hero {
+      padding: 52px 0 44px;
+      background: radial-gradient(circle at 80% 20%, #dce7ff 0%, transparent 50%),
+                  radial-gradient(circle at 10% 80%, #eef4ff 0%, transparent 45%),
+                  var(--bg);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 5px 14px;
+      font-size: 13px;
+      color: var(--brand-deep);
+      font-weight: 600;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 4vw, 48px);
+      line-height: 1.2;
+      letter-spacing: -0.8px;
+      margin-bottom: 16px;
+      font-weight: 800;
+    }
+
+    .hero h1 em {
+      font-style: normal;
+      color: var(--brand);
+      background: linear-gradient(120deg, var(--brand), #7aa5ff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-desc {
+      font-size: 16px;
+      color: var(--ink-soft);
+      max-width: 540px;
+      margin-bottom: 26px;
+      line-height: 1.8;
+    }
+
+    .hero-search {
+      display: flex;
+      background: #fff;
+      border-radius: 999px;
+      padding: 5px 5px 5px 22px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--line);
+      max-width: 500px;
+      margin-bottom: 22px;
+      align-items: center;
+    }
+
+    .hero-search input {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      font-family: inherit;
+      background: transparent;
+      color: var(--ink);
+      min-width: 0;
+    }
+
+    .hero-search input::placeholder {
+      color: #9aa9be;
+    }
+
+    .hero-search .btn {
+      padding: 11px 26px;
+      font-size: 15px;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 10px;
+      font-size: 13px;
+    }
+
+    .hero-tags a {
+      background: #fff;
+      border: 1px solid var(--line);
+      padding: 6px 14px;
+      border-radius: 999px;
+      color: var(--ink-soft);
+      transition: all 0.2s;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .hero-tags a:hover {
+      border-color: var(--brand);
+      color: var(--brand);
+      transform: translateY(-1px);
+    }
+
+    /* 右侧封面墙 */
+    .hero-visual {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 300px;
+    }
+
+    .cover-stack {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      width: 100%;
+      max-width: 400px;
+      transform: rotate(-2deg);
+    }
+
+    .cover-card {
+      aspect-ratio: 3/4;
+      border-radius: var(--radius-md);
+      background: linear-gradient(160deg, #c9d9ff, #eef4ff);
+      box-shadow: var(--shadow-md);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 14px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink-soft);
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .cover-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .cover-card:nth-child(1) { background: linear-gradient(160deg, #b7ccff, #dce7ff); }
+    .cover-card:nth-child(2) { background: linear-gradient(160deg, #ffd8b0, #ffeddb); }
+    .cover-card:nth-child(3) { background: linear-gradient(160deg, #b0e5d6, #d9f5ee); }
+    .cover-card:nth-child(4) { background: linear-gradient(160deg, #e0c8ff, #f2e8ff); }
+
+    .cover-card span {
+      background: rgba(255,255,255,0.7);
+      backdrop-filter: blur(4px);
+      padding: 4px 10px;
+      border-radius: 999px;
+      align-self: flex-start;
+      font-size: 12px;
+    }
+
+    .cover-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: var(--brand);
+      color: #fff;
+      font-size: 10px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+
+    /* ---------- 通用区块 ---------- */
+    .section {
+      padding: 56px 0;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .section-head h2 {
+      font-size: clamp(22px, 2.6vw, 30px);
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      position: relative;
+    }
+
+    .section-head h2::after {
+      content: '';
+      display: block;
+      width: 42px;
+      height: 4px;
+      background: var(--brand);
+      border-radius: 4px;
+      margin-top: 8px;
+    }
+
+    .section-head p {
+      color: var(--muted);
+      font-size: 14px;
+      max-width: 520px;
+      text-align: right;
+    }
+
+    /* ---------- 卡片网格 ---------- */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .content-card {
+      background: var(--surface);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      transition: transform 0.22s, box-shadow 0.22s;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgba(219,226,239,0.7);
+    }
+
+    .content-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .card-cover {
+      height: 130px;
+      background: linear-gradient(135deg, #dce7ff, #f0f4fe);
+      display: flex;
+      align-items: flex-end;
+      padding: 12px 14px;
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--brand-deep);
+      position: relative;
+    }
+
+    .card-cover .tag-top {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(255,255,255,0.9);
+      padding: 2px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--ink-soft);
+    }
+
+    .card-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .card-body h3 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 8px;
+    }
+
+    .card-tags span {
+      font-size: 11px;
+      background: var(--surface-soft);
+      color: var(--brand-deep);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    .card-desc {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 12px;
+      flex: 1;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: #8b98ab;
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      margin-top: auto;
+    }
+
+    .card-meta strong {
+      color: var(--brand);
+      font-weight: 600;
+    }
+
+    /* ---------- 更新列表 ---------- */
+    .update-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 14px;
+    }
+
+    .update-item {
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      padding: 16px 18px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      transition: transform 0.2s;
+      border-left: 4px solid var(--brand);
+    }
+
+    .update-item:hover {
+      transform: translateX(4px);
+    }
+
+    .update-time {
+      font-size: 12px;
+      color: #8b98ab;
+      white-space: nowrap;
+      min-width: 64px;
+      padding-top: 2px;
+    }
+
+    .update-content h4 {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 3px;
+    }
+
+    .update-content p {
+      font-size: 13px;
+      color: var(--ink-soft);
+      line-height: 1.5;
+    }
+
+    /* ---------- 分类入口 ---------- */
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 14px;
+    }
+
+    .cat-item {
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      padding: 20px 12px;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s;
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--ink-soft);
+      border: 1px solid transparent;
+    }
+
+    .cat-item:hover {
+      border-color: var(--brand);
+      color: var(--brand);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .cat-item .cat-emoji {
+      font-size: 24px;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    /* ---------- 深度解析 ---------- */
+    .deep-dive {
+      background: var(--surface);
+      border-radius: var(--radius-lg);
+      padding: 40px 44px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--line);
+    }
+
+    .deep-dive h2 {
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 20px;
+      letter-spacing: -0.4px;
+    }
+
+    .deep-dive h3 {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 24px 0 10px;
+      color: var(--brand-deep);
+    }
+
+    .deep-dive p {
+      font-size: 15px;
+      color: var(--ink-soft);
+      margin-bottom: 14px;
+      line-height: 1.85;
+    }
+
+    .deep-dive .highlight {
+      background: var(--surface-soft);
+      border-left: 4px solid var(--brand);
+      padding: 16px 22px;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 20px 0;
+      font-size: 14px;
+      color: var(--ink);
+    }
+
+    /* ---------- FAQ ---------- */
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .faq-card {
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      padding: 20px 22px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--line);
+      transition: box-shadow 0.2s;
+    }
+
+    .faq-card:hover {
+      box-shadow: var(--shadow-md);
+    }
+
+    .faq-card h4 {
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+    }
+
+    .faq-card h4 .q-mark {
+      color: var(--brand);
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    .faq-card p {
+      font-size: 13.5px;
+      color: var(--ink-soft);
+      line-height: 1.7;
+    }
+
+    /* ---------- 评论 ---------- */
+    .comment-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    .comment-card {
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      padding: 16px 18px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid rgba(219,226,239,0.8);
+    }
+
+    .comment-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .avatar {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #b7ccff, #dce7ff);
+      display: grid;
+      place-items: center;
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--brand-deep);
+      flex-shrink: 0;
+    }
+
+    .comment-user {
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .comment-date {
+      font-size: 11px;
+      color: #9aa9be;
+      margin-left: auto;
+    }
+
+    .comment-text {
+      font-size: 13.5px;
+      color: var(--ink-soft);
+      line-height: 1.65;
+    }
+
+    /* ---------- 资讯 ---------- */
+    .news-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 18px;
+    }
+
+    .news-card {
+      background: var(--surface);
+      border-radius: var(--radius-sm);
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--line);
+      transition: transform 0.2s;
+    }
+
+    .news-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .news-date {
+      font-size: 12px;
+      color: var(--brand);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .news-card h4 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+
+    .news-card p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    /* ---------- 页脚 ---------- */
+    .footer {
+      background: #111827;
+      color: #c3cbd8;
+      padding: 48px 0 32px;
+      margin-top: 20px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 36px;
+      margin-bottom: 36px;
+    }
+
+    .footer h5 {
+      color: #fff;
+      font-size: 15px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    .footer p {
+      font-size: 13px;
+      line-height: 1.8;
+      color: #8b98ab;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 13px;
+    }
+
+    .footer-links a {
+      color: #8b98ab;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover {
+      color: #fff;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #2a3446;
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 12px;
+      color: #6b7a90;
+    }
+
+    /* ---------- 响应式 ---------- */
+    @media (max-width: 900px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+
+      .hero-visual {
+        min-height: 220px;
+      }
+
+      .cover-stack {
+        max-width: 300px;
+      }
+
+      .deep-dive {
+        padding: 28px 22px;
+      }
+
+      .faq-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .topbar-inner {
+        gap: 12px;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .search-mini input {
+        width: 100px;
+      }
+
+      .hero {
+        padding: 32px 0 28px;
+      }
+
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      .hero-search {
+        flex-direction: column;
+        background: transparent;
+        box-shadow: none;
+        padding: 0;
+        gap: 10px;
+        border: none;
+      }
+
+      .hero-search input {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 12px 18px;
+        width: 100%;
+      }
+
+      .hero-search .btn {
+        width: 100%;
+      }
+
+      .section {
+        padding: 36px 0;
+      }
+
+      .section-head p {
+        text-align: left;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .deep-dive h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ========== 导航 ========== -->
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a href="/" class="logo">
+      <span class="logo-mark">四</span>
+      四虎视频
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="/#热门推荐">热门推荐</a>
+      <a href="/#最新更新">最新更新</a>
+      <a href="/#深度解析">深度解析</a>
+      <a href="/#分类入口">分类入口</a>
+      <a href="/#常见问题">常见问题</a>
+      <a href="/#用户评论">用户评论</a>
+      <a href="/#相关资讯">相关资讯</a>
+    </nav>
+    <div class="nav-right">
+      <form class="search-mini" onsubmit="return false;">
+        <input type="search" placeholder="搜剧集、短剧、直播…" aria-label="站内搜索">
+        <button type="submit" aria-label="搜索">⌕</button>
+      </form>
+      <a href="/#订阅引导" class="btn btn-primary">订阅更新</a>
+    </div>
+  </div>
+</header>
+
+<!-- ========== 首屏 Banner ========== -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <span class="hero-tag">🎬 2026 内容消费指南 · 持续更新</span>
+      <h1>四虎视频<br><em>热门内容专题与观看指南</em></h1>
+      <p class="hero-desc">
+        四虎视频内容聚合页，围绕热播剧集、微短剧、直播与综艺，提供编辑推荐、深度解析与更新追踪。每天花三分钟，就能找到下一部想看的作品。
+      </p>
+      <form class="hero-search" onsubmit="return false;">
+        <input type="search" placeholder="搜索感兴趣的剧名、演员或类型…" aria-label="搜索四虎视频内容">
+        <button type="submit" class="btn btn-primary">立即搜索</button>
+      </form>
+      <div class="hero-tags">
+        <a href="/#热门推荐">热播剧集</a>
+        <a href="/#最新更新">微短剧</a>
+        <a href="/#分类入口">直播回放</a>
+        <a href="/#分类入口">综艺速看</a>
+        <a href="/#深度解析">编辑精选</a>
+        <a href="/#相关资讯">新剧上线</a>
+        <a href="/#常见问题">观看顺序</a>
+        <a href="/#用户评论">社区讨论</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="cover-stack">
+        <div class="cover-card"><span class="cover-badge">热播</span><span>长夜将明 · 悬疑</span></div>
+        <div class="cover-card"><span class="cover-badge">短剧</span><span>闪婚总裁 · 甜宠</span></div>
+        <div class="cover-card"><span class="cover-badge">直播</span><span>午夜电台 · 情感</span></div>
+        <div class="cover-card"><span class="cover-badge">综艺</span><span>即兴喜剧场 · 爆笑</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 热门推荐 ========== -->
+<section class="section" id="热门推荐">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>热门内容推荐</h2>
+      <p>本周四虎视频内容热度榜，编辑结合播放与讨论度筛选。</p>
+    </div>
+    <div class="card-grid">
+
+      <article class="content-card">
+        <div class="card-cover" style="background:linear-gradient(135deg,#d4e0ff,#eef4ff);">
+          <span class="tag-top">热播剧集</span>长夜将明
+        </div>
+        <div class="card-body">
+          <h3>长夜将明</h3>
+          <div class="card-tags"><span>悬疑</span><span>刑侦</span><span>2026新剧</span></div>
+          <p class="card-desc">一桩十年悬案重启，刑警与法医在层层迷雾中追查真相，节奏紧凑，反转密集。</p>
+          <div class="card-meta"><span>🔥 热度 9.6</span><span>更新至 18 集</span></div>
+        </div>
+      </article>
+
+      <article class="content-card">
+        <div class="card-cover" style="background:linear-gradient(135deg,#ffe8cc,#fff6ea);">
+          <span class="tag-top">微短剧</span>闪婚总裁
+        </div>
+        <div class="card-body">
+          <h3>闪婚总裁的替嫁新娘</h3>
+          <div class="card-tags"><span>甜宠</span><span>逆袭</span><span>每集3分钟</span></div>
+          <p class="card-desc">一场乌龙替嫁，让普通女孩卷入豪门纷争，先婚后爱的套路拍出了新鲜感，爽点密集。</p>
+          <div class="card-meta"><span>🔥 热度 9.2</span><span>全 80 集</span></div>
+        </div>
+      </article>
+
+      <article class="content-card">
+        <div class="card-cover" style="background:linear-gradient(135deg,#c8f0e2,#e8faf4);">
+          <span class="tag-top">直播</span>午夜电台
+        </div>
+        <div class="card-body">
+          <h3>午夜情感电台</h3>
+          <div class="card-tags"><span>情感</span><span>连麦</span><span>每晚22点</span></div>
+          <p class="card-desc">主播阿夜每晚在四虎视频直播间倾听听众故事，温柔声线与真实人生交织，意外地治愈。</p>
+          <div class="card-meta"><span>🔥 热度 8.9</span><span>每晚直播</span></div>
+        </div>
+      </article>
+
+      <article class="content-card">
+        <div class="card-cover" style="background:linear-gradient(135deg,#f0d9ff,#f8edff);">
+          <span class="tag-top">综艺</span>即兴喜剧场
+        </div>
+        <div class="card-body">
+          <h3>即兴喜剧场 第二季</h3>
+          <div class="card-tags"><span>喜剧</span><span>即兴</span><span>每周五更新</span></div>
+          <p class="card-desc">六位喜剧人无剧本即兴表演，观众现场出题，笑点密集且不可复制，第二季口碑持续走高。</p>
+          <div class="card-meta"><span>🔥 热度 8.7</span><span>更新至第 9 期</span></div>
+        </div>
+      </article>
+
+      <article class="content-card">
+        <div class="card-cover" style="background:linear-gradient(135deg,#ffd9d9,#ffeeee);">
+          <span class="tag-top">纪录片</span>人间烟火
+        </div>
+        <div class="card-body">
+          <h3>人间烟火·夜市篇</h3>
+          <div class="card-tags"><span>美食</span><span>人文</span><span>4K</span></div>
+          <p class="card-desc">镜头走进六座城市的深夜夜市，记录摊主与食客的生活切片，看完只想立刻出门觅食。</p>
+          <div class="card-meta"><span>🔥 热度 8.5</span><span>全 6 集</span></div>
+        </div>
+      </article>
+
+      <article class="content-card">
+        <div class="card-cover" style="background:linear-gradient(135deg,#d9e8ff,#edf5ff);">
+          <span class="tag-top">动漫</span>星轨少年
+        </div>
+        <div class="card-body">
+          <h3>星轨少年</h3>
+          <div class="card-tags"><span>热血</span><span>科幻</span><span>国漫</span></div>
+          <p class="card-desc">少年意外获得星图碎片，踏上寻找失落文明的旅途，作画稳定、配乐出彩，适合入坑。</p>
+          <div class="card-meta"><span>🔥 热度 8.4</span><span>更新至 22 话</span></div>
+        </div>
+      </article>
+
+      <article class="content-card">
+        <div class="card-cover" style="background:linear-gradient(135deg,#e6f7d9,#f5ffed);">
+          <span class="tag-top">体育</span>城市篮球联赛
+        </div>
+        <div class="card-body">
+          <h3>城市篮球联赛 2026 赛季</h3>
+          <div class="card-tags"><span>篮球</span><span>草根</span><span>周末直播</span></div>
+          <p class="card-desc">十二支城市代表队捉对厮杀，草根球员的拼劲不输职业赛场，四虎视频全程直播。</p>
+          <div class="card-meta"><span>🔥 热度 8.2</span><span>每周六日</span></div>
+        </div>
+      </article>
+
+      <article class="content-card">
+        <div class="card-cover" style="background:linear-gradient(135deg,#ffe0c2,#fff3e5);">
+          <span class="tag-top">音乐</span>民谣现场
+        </div>
+        <div class="card-body">
+          <h3>民谣现场·小酒馆</h3>
+          <div class="card-tags"><span>民谣</span><span>Live</span><span>每周三</span></div>
+          <p class="card-desc">独立音乐人轮番驻唱，不插电的现场氛围感拉满，适合当背景音也可以认真听歌词。</p>
+          <div class="card-meta"><span>🔥 热度 8.0</span><span>每周三直播</span></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== 最新更新 ========== -->
+<section class="section" id="最新更新" style="background:#eef3ff;">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>最新更新 · 热播动态</h2>
+      <p>截至 2026 年 11 月 7 日的更新与直播预告，追更不迷路。</p>
+    </div>
+    <div class="update-list">
+
+      <div class="update-item">
+        <span class="update-time">11-07 18:00</span>
+        <div class="update-content">
+          <h4>长夜将明</h4>
+          <p>第 18 集上线，关键证人翻供，案件走向出现重大转折。</p>
+        </div>
+      </div>
+
+      <div class="update-item">
+        <span class="update-time">11-07 20:00</span>
+        <div class="update-content">
+          <h4>午夜情感电台</h4>
+          <p>今晚主题「异地恋的第1000天」，主播阿夜连麦三位听众。</p>
+        </div>
+      </div>
+
+      <div class="update-item">
+        <span class="update-time">11-07 12:30</span>
+        <div class="update-content">
+          <h4>闪婚总裁的替嫁新娘</h4>
+          <p>更新第 60-65 集，女主身世线索浮出水面，甜度与虐度齐飞。</p>
+        </div>
+      </div>
+
+      <div class="update-item">
+        <span class="update-time">11-06 21:00</span>
+        <div class="update-content">
+          <h4>即兴喜剧场 第二季</h4>
+          <p>第 9 期上线，本期主题「社死现场」，现场观众笑到拍桌。</p>
+        </div>
+      </div>
+
+      <div class="update-item">
+        <span class="update-time">11-06 16:20</span>
+        <div class="update-content">
+          <h4>星轨少年</h4>
+          <p>第 22 话更新，主角团首次遭遇星兽潮，战斗作画引起热议。</p>
+        </div>
+      </div>
+
+      <div class="update-item">
+        <span class="update-time">11-05 19:00</span>
+        <div class="update-content">
+          <h4>城市篮球联赛</h4>
+          <p>常规赛收官战直播回放上线，东区决赛对阵出炉。</p>
+        </div>
+      </div>
+
+      <div class="update-item">
+        <span class="update-time">11-05 10:00</span>
+        <div class="update-content">
+          <h4>人间烟火·夜市篇</h4>
+          <p>新增幕后花絮短片，导演分享拍摄夜市的取舍与坚持。</p>
+        </div>
+      </div>
+
+      <div class="update-item">
+        <span class="update-time">11-04 21:30</span>
+        <div class="update-content">
+          <h4>民谣现场·小酒馆</h4>
+          <p>本周三场次回放上线，嘉宾翻唱经典老歌获高赞。</p>
+        </div>
+      </div>
+
+      <div class="update-item">
+        <span class="update-time">11-04 14:00</span>
+        <div class="update-content">
+          <h4>四虎视频专题</h4>
+          <p>「冬季片单」专题上线，收录 12 部适合窝在被窝看的作品。</p>
+        </div>
+      </div>
+
+      <div class="update-item">
+        <span class="update-time">11-03 19:45</span>
+        <div class="update-content">
+          <h4>长夜将明</h4>
+          <p>导演访谈上线，解读第 16 集长镜头的设计思路。</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== 分类入口 ========== -->
+<section class="section" id="分类入口">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>内容分类入口</h2>
+      <p>按类型快速筛选，从剧集到直播，找到你偏爱的内容形态。</p>
+    </div>
+    <div class="category-grid">
+      <a href="/#热门推荐" class="cat-item"><span class="cat-emoji">🎭</span>热播剧集</a>
+      <a href="/#热门推荐" class="cat-item"><span class="cat-emoji">📱</span>微短剧</a>
+      <a href="/#最新更新" class="cat-item"><span class="cat-emoji">📡</span>直播回放</a>
+      <a href="/#热门推荐" class="cat-item"><span class="cat-emoji">🎙️</span>综艺速看</a>
+      <a href="/#热门推荐" class="cat-item"><span class="cat-emoji">🎬</span>纪录片</a>
+      <a href="/#热门推荐" class="cat-item"><span class="cat-emoji">🌸</span>国漫新番</a>
+      <a href="/#热门推荐" class="cat-item"><span class="cat-emoji">🏀</span>体育赛事</a>
+      <a href="/#热门推荐" class="cat-item"><span class="cat-emoji">🎵</span>音乐现场</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 深度解析 ========== -->
+<section class="section" id="深度解析">
+  <div class="wrap">
+    <div class="deep-dive">
+      <h2>四虎视频内容深度解析：从追剧到发现好内容</h2>
+      <p>
+        打开四虎视频，很多人的第一反应是「今天有什么可看」。这个专题页想解决的正是这个问题——不是简单罗列片名，而是按类型、节奏和受众偏好，把值得看的内容分层讲清楚。2026 年的内容消费节奏比几年前快得多，长剧、短剧、直播、综艺各自占据不同的时间段：通勤路上刷两集短剧，晚饭后追一集长剧，周末晚上看直播或综艺。四虎视频的内容生态正好覆盖了这些场景，理解它的内容结构，能让你的每一次打开都更有目的性。
+      </p>
+      <h3>类型与题材：悬疑、甜宠、纪实各自的位置</h3>
+      <p>
+        从当前热度看，悬疑刑侦类长剧依然是最能沉淀讨论度的品类。《长夜将明》这类作品的优势在于人物关系复杂、线索层层递进，适合愿意投入注意力的观众，也适合二刷找细节。相比之下，微短剧走的是另一条路：每集三分钟，冲突前置，爽点密集，《闪婚总裁的替嫁新娘》就是典型代表，它不追求深度，但追求即时的情绪回报。四虎视频把这两类内容放在同一入口下，其实是在承认观众需求的分层——有人要沉浸，有人要效率。
+      </p>
+      <h3>节奏与消费体验：短剧和长剧不是替代关系</h3>
+      <p>
+        经常被问的一个问题是：短剧会不会取代长剧。从实际观看行为看，两者更接近互补。短剧填补碎片时间，长剧承担周末整块时间的沉浸需求。四虎视频的更新列表把短剧和长剧并列呈现，本身就在传递这个信号。对观众来说，更实用的做法是建立自己的「内容组合」：一两部长剧追主线，几部短剧当零食，再加一档直播或综艺换换口味。这样既不会因为长剧断更而空窗，也不会被短剧的强刺激拖得太累。
+      </p>
+      <div class="highlight">
+        编辑建议：如果你刚开始使用四虎视频，先从「热门推荐」里挑一部类型你本来就会看的作品，再根据看完后的感受决定是深挖同类还是换类型。比漫无目的地刷更有效率。
+      </div>
+      <h3>人物与表现力：谁在撑起内容</h3>
+      <p>
+        长剧看人物弧光，短剧看人设反差，直播看主播的临场感，综艺看嘉宾之间的化学反应。四虎视频的内容里，这几条线索都很清晰。《长夜将明》的法医角色承担了大量情绪转折，演员的克制表演是讨论热点；《午夜情感电台》的主播阿夜靠声音和共情能力留住听众，这其实是直播内容的核心竞争力。理解了不同内容形态的「看点」在哪里，就不会用看长剧的标准去要求短剧，也不会拿综艺的标准去评价纪录片。
+      </p>
+      <h3>适合人群与搜索意图</h3>
+      <p>
+        搜索「四虎视频」的人，大多处在两个状态之一：一是想找具体某部作品在哪看、更新到哪了；二是想看看最近有什么值得追的内容。这个专题页对两类需求都有回应——更新列表解决前者，推荐和解析解决后者。如果你属于「不想花时间筛选、只想快速进入观看」的类型，直接看热门推荐里的热度和更新信息即可；如果你更在意内容质量和个人口味匹配，深度解析和用户评论会更有参考价值。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 常见问题 FAQ ========== -->
+<section class="section" id="常见问题" style="background:#eef3ff;">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>常见问题</h2>
+      <p>关于四虎视频内容选择与观看的常见疑问，按编辑经验整理。</p>
+    </div>
+    <div class="faq-grid">
+
+      <div class="faq-card">
+        <h4><span class="q-mark">Q</span>四虎视频上先看长剧还是短剧比较好？</h4>
+        <p>取决于你的时间结构。如果每天有完整的一小时以上，建议从悬疑长剧入手，沉浸感更强；如果只有通勤或睡前的碎片时间，微短剧的节奏更匹配。两者并不冲突，很多观众会同时追一部长剧和几部短剧。</p>
+      </div>
+
+      <div class="faq-card">
+        <h4><span class="q-mark">Q</span>《长夜将明》适合不喜欢血腥画面的观众吗？</h4>
+        <p>这部剧以案件推理和人物关系为主，暴力镜头相对克制，更多依靠氛围和台词制造紧张感。如果你对血腥画面比较敏感，可以放心尝试；如果完全不能接受犯罪题材，建议先从轻喜剧或纪录片类内容入手。</p>
+      </div>
+
+      <div class="faq-card">
+        <h4><span class="q-mark">Q</span>微短剧每集只有几分钟，会不会看不进去？</h4>
+        <p>短剧的设计逻辑就是「前三秒抓人」，所以通常不需要预热。第一次看建议连续看三到五集，能比较快判断是否对口味。如果三集之后仍然没有代入感，换一部比硬追更划算。</p>
+      </div>
+
+      <div class="faq-card">
+        <h4><span class="q-mark">Q</span>四虎视频的直播回放和直播有什么区别？</h4>
+        <p>直播的乐趣在于实时互动和弹幕氛围，回放则更适合补看内容本身。像《午夜情感电台》这类情感直播，回放会保留完整连麦内容，但少了实时参与感。如果时间允许，优先看直播；错过的话回放也值得补。</p>
+      </div>
+
+      <div class="faq-card">
+        <h4><span class="q-mark">Q</span>值得为一部剧专门开会员或订阅吗？</h4>
+        <p>建议先看免费内容和专题推荐，确认自己的观看频率再决定。如果你每周固定追两三部作品，订阅的性价比会更高；如果只是偶尔看看，专题页的更新追踪和推荐已经能满足大部分需求。</p>
+      </div>
+
+      <div class="faq-card">
+        <h4><span class="q-mark">Q</span>怎么及时知道喜欢的内容更新了？</h4>
+        <p>可以把本页的「最新更新」当作轻量追更入口，也可以使用页面上的订阅功能。对于更新频率高的短剧，关注更新列表比每天手动搜索更省心。长剧则可以配合评论区的讨论判断哪一集值得优先看。</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== 用户评论 ========== -->
+<section class="section" id="用户评论">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>用户评论精选</h2>
+      <p>来自四虎视频观众的近 30 天真实讨论，褒贬都有，供参考。</p>
+    </div>
+    <div class="comment-grid">
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">夜</span><span class="comment-user">夜航船</span><span class="comment-date">11-06</span></div>
+        <p class="comment-text">《长夜将明》第16集那个长镜头真的绝，导演访谈看完更佩服了。就是更新太慢，等得心焦。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">甜</span><span class="comment-user">甜豆花不加糖</span><span class="comment-date">11-05</span></div>
+        <p class="comment-text">闪婚总裁这部短剧我本来是当背景音放的，结果一集接一集停不下来，男女主颜值也在线，推荐。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">阿</span><span class="comment-user">阿夜听众</span><span class="comment-date">11-07</span></div>
+        <p class="comment-text">每晚都蹲午夜电台，主播声音太治愈了。昨晚异地恋那期有几个故事听哭了，希望多加点连麦名额。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">追</span><span class="comment-user">追更小队长</span><span class="comment-date">11-04</span></div>
+        <p class="comment-text">即兴喜剧场第二季比第一季好笑，嘉宾之间的默契明显更好。唯一想吐槽的是每期太短，不够看。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">星</span><span class="comment-user">星轨观测员</span><span class="comment-date">11-06</span></div>
+        <p class="comment-text">星轨少年22话打斗作画可以吹一年，国漫真的在进步。剧情节奏稍微有点赶，希望后面稳一点。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">篮</span><span class="comment-user">篮下老张</span><span class="comment-date">11-05</span></div>
+        <p class="comment-text">城市篮球联赛草根球员的拼劲比某些职业比赛还好看。直播信号偶尔卡，希望四虎视频优化一下。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">吃</span><span class="comment-user">深夜觅食者</span><span class="comment-date">11-05</span></div>
+        <p class="comment-text">人间烟火夜市篇千万别在饿的时候看！第三集那个烧烤摊拍得太香了，我当场点了外卖。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">民</span><span class="comment-user">民谣不插电</span><span class="comment-date">11-04</span></div>
+        <p class="comment-text">小酒馆现场回放音质比想象中好，翻唱那首老歌听了三遍。希望多请一些独立音乐人。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">路</span><span class="comment-user">路过的观众</span><span class="comment-date">11-03</span></div>
+        <p class="comment-text">专题页比直接搜方便多了，至少知道哪些在更新。不过推荐能不能按类型再细分一下，找起来更快。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">冷</span><span class="comment-user">冷静看剧</span><span class="comment-date">11-02</span></div>
+        <p class="comment-text">长夜将明质量确实高，但18集之后线索有点散，希望别烂尾。短剧那边反而稳定发挥，图个乐挺好。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">老</span><span class="comment-user">老剧迷</span><span class="comment-date">11-01</span></div>
+        <p class="comment-text">从长剧追到短剧，感觉现在内容选择多是多了，但同质化也不少。四虎视频的编辑推荐可以更有个性一点。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">新</span><span class="comment-user">新用户小陈</span><span class="comment-date">10-30</span></div>
+        <p class="comment-text">刚用四虎视频不久，这个专题页帮了大忙，FAQ里先看长剧还是短剧那个问题问到我心坎里了。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">弹</span><span class="comment-user">弹幕护体</span><span class="comment-date">10-28</span></div>
+        <p class="comment-text">直播弹幕氛围是真的好，比一个人看有意思多了。就是有时候弹幕刷太快，看不清内容。</p>
+      </div>
+
+      <div class="comment-card">
+        <div class="comment-head"><span class="avatar">周</span><span class="comment-user">周末宅家</span><span class="comment-date">10-26</span></div>
+        <p class="comment-text">冬季片单专题来得及时，正好周末不知道看什么。建议标一下每部的集数和时长，方便安排时间。</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== 相关资讯 ========== -->
+<section class="section" id="相关资讯">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>相关资讯</h2>
+      <p>围绕四虎视频内容生态的近期动态与看点整理。</p>
+    </div>
+    <div class="news-grid">
+
+      <article class="news-card">
+        <div class="news-date">2026-11-07</div>
+        <h4>《长夜将明》导演访谈上线，解析第16集长镜头</h4>
+        <p>导演在访谈中分享了长镜头的调度难点和演员走位设计，并回应了观众对结局走向的猜测。</p>
+      </article>
+
+      <article class="news-card">
+        <div class="news-date">2026-11-06</div>
+        <h4>即兴喜剧场第二季口碑走高，即兴模式受关注</h4>
+        <p>无剧本的表演形式让每期内容都不可复制，观众开始讨论即兴喜剧在国内的接受度与可能性。</p>
+      </article>
+
+      <article class="news-card">
+        <div class="news-date">2026-11-05</div>
+        <h4>四虎视频冬季片单专题上线，收录12部作品</h4>
+        <p>专题按「窝在被窝看」「适合下饭」「需要动脑」三个标签分类，覆盖剧集、纪录片和综艺。</p>
+      </article>
+
+      <article class="news-card">
+        <div class="news-date">2026-11-04</div>
+        <h4>城市篮球联赛东区决赛对阵出炉</h4>
+        <p>常规赛收官战后，东区两支队伍会师决赛，四虎视频将全程直播并上线回放与数据统计。</p>
+      </article>
+
+      <article class="news-card">
+        <div class="news-date">2026-11-03</div>
+        <h4>星轨少年第22话战斗作画引热议</h4>
+        <p>本话星兽潮场景的作画密度和分镜设计被观众反复讨论，制作组在社交平台回应了制作周期问题。</p>
+      </article>
+
+      <article class="news-card">
+        <div class="news-date">2026-11-02</div>
+        <h4>午夜情感电台连麦名额增加，主播阿夜回应听众</h4>
+        <p>针对听众反映的连麦排队问题，直播间宣布每周增加两场连麦专场，并优化回放的剪辑方式。</p>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== 订阅引导 ========== -->
+<section class="section" id="订阅引导" style="background:linear-gradient(135deg,#e3ecff,#f6f8ff);">
+  <div class="wrap" style="text-align:center;max-width:720px;">
+    <h2 style="font-size:26px;font-weight:800;margin-bottom:12px;">不想错过更新？订阅四虎视频内容提醒</h2>
+    <p style="color:var(--muted);font-size:15px;margin-bottom:24px;">新剧上线、短剧完结、直播开播，第一时间收到提醒，把选择内容的时间省下来。</p>
+    <form style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;" onsubmit="return false;">
+      <input type="email" placeholder="输入邮箱地址" style="padding:12px 20px;border-radius:999px;border:1px solid var(--line);font-size:14px;min-width:240px;outline:none;font-family:inherit;" aria-label="订阅邮箱">
+      <button class="btn btn-primary" type="submit">订阅更新</button>
+    </form>
+  </div>
+</section>
+
+<!-- ========== 页脚 ========== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h5>四虎视频 · 内容专题</h5>
+        <p>聚合热播剧集、微短剧、直播与综艺推荐，提供编辑解析、更新追踪和社区讨论，帮助观众更高效地发现和选择内容。</p>
+      </div>
+      <div>
+        <h5>内容导航</h5>
+        <div class="footer-links">
+          <a href="/#热门推荐">热门推荐</a>
+          <a href="/#最新更新">最新更新</a>
+          <a href="/#分类入口">分类入口</a>
+          <a href="/#深度解析">深度解析</a>
+        </div>
+      </div>
+      <div>
+        <h5>帮助与反馈</h5>
+        <div class="footer-links">
+          <a href="/#常见问题">常见问题</a>
+          <a href="/#用户评论">用户评论</a>
+          <a href="/#订阅引导">订阅提醒</a>
+          <a href="/#相关资讯">相关资讯</a>
+        </div>
+      </div>
+      <div>
+        <h5>友情链接</h5>
+        <div class="footer-links">
+          <a href="#">内容合作</a>
+          <a href="#">版权说明</a>
+          <a href="#">意见反馈</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 四虎视频内容专题页 · 本站内容为编辑整理与观众讨论，不提供任何影片存储服务。</span>
+      <span>免责声明：页面信息仅供参考，内容版权归原权利人所有。</span>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</body>
+  </html>
